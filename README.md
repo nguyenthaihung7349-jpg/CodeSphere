@@ -1,8 +1,8 @@
-#Project Overview
+# Project Overview
 Dự án này là một nền tảng mạng xã hội chia sẻ bài viết (social blogging platform) được xây dựng trên ASP.NET Core MVC (.NET 9), với kiến trúc module hóa theo Areas, hỗ trợ chat riêng tư thời gian thực, thông báo người dùng, tác vụ nền (background jobs), machine learning để hỗ trợ kiểm duyệt nội dung và sinh nội dung tự động bằng AI thông qua tầng dịch vụ AI chuyên biệt.
 Dự án kết hợp MVC truyền thống, Razor Pages (cho Identity) và Server-Side Blazor, với phân tách rõ ràng giữa Controllers, Repositories, Services, ML Models, AI Services và SignalR Hubs.
 
-#Key Features
+# Key Features
 User Accounts & Roles
 ASP.NET Core Identity với ApplicationUser / ApplicationRole tùy biến
 Phân quyền theo vai trò (Administrator, Editor, v.v.)
